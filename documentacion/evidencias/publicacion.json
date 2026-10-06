@@ -1,0 +1,47 @@
+{
+  "fecha": "2026-10-06",
+  "dominio": "https://recingenieria.com",
+  "commit": "b5ac0331a7cd708f54ccdf5e42bd5a1a23716b0d",
+  "remoto_verificado": true,
+  "despliegue": "dpl_F6YqCraXn5TLh7fJH1yJtBEqU3ZG",
+  "estado": "READY / production",
+  "archivos_nuevos": [
+    {
+      "ruta": "index.html",
+      "http": 200,
+      "sha256_local_remoto_igual": true
+    },
+    {
+      "ruta": "assets/rec-experience.css",
+      "http": 200,
+      "sha256_local_remoto_igual": true
+    },
+    {
+      "ruta": "assets/rec-experience.js",
+      "http": 200,
+      "sha256_local_remoto_igual": true
+    },
+    {
+      "ruta": "assets/rec-hero.mp4",
+      "http": 200,
+      "sha256_local_remoto_igual": true
+    },
+    {
+      "ruta": "assets/qr-rec.png",
+      "http": 200,
+      "sha256_local_remoto_igual": true
+    },
+    {
+      "ruta": "richard-castro.vcf",
+      "http": 200,
+      "sha256_local_remoto_igual": true
+    }
+  ],
+  "entregas_y_visores_conservados": 96,
+  "pdf_heredado_muestra": {
+    "http": 200,
+    "sha256_igual": true
+  },
+  "redirect_servicios": "https://recingenieria.com/#servicios",
+  "correo_o_whatsapp_enviado": false
+}

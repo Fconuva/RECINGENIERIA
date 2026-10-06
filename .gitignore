@@ -16,6 +16,7 @@ __pycache__/
 *.dwl2
 archivos_privados/
 documentacion/evidencias/*.png
+documentacion/evidencias/*.jpg
 documentacion/evidencias/diapositivas/
 90_ARCHIVO_HISTORICO/
 06_SERVICIOS_REC/
