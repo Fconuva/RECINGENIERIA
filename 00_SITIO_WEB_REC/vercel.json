@@ -1,0 +1,79 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "buildCommand": "node scripts/generate-firebase-config.mjs",
+  "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/admin.html",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/servicios",
+      "destination": "/#servicios",
+      "permanent": true
+    },
+    {
+      "source": "/servicios.html",
+      "destination": "/#servicios",
+      "permanent": true
+    },
+    {
+      "source": "/metodologia",
+      "destination": "/#servicios",
+      "permanent": true
+    },
+    {
+      "source": "/metodologia.html",
+      "destination": "/#servicios",
+      "permanent": true
+    },
+    {
+      "source": "/proyectos",
+      "destination": "/#servicios",
+      "permanent": true
+    },
+    {
+      "source": "/proyectos.html",
+      "destination": "/#servicios",
+      "permanent": true
+    },
+    {
+      "source": "/nosotros",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/nosotros.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/contacto",
+      "destination": "/#contacto",
+      "permanent": true
+    },
+    {
+      "source": "/contacto.html",
+      "destination": "/#contacto",
+      "permanent": true
+    }
+  ]
+}

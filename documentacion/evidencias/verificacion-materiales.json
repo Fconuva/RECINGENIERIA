@@ -1,0 +1,33 @@
+{
+  "REC-presentacion-comercial.pdf": {
+    "paginas": 8,
+    "autor": "REC Ingeniería",
+    "asunto": "Propuesta comercial",
+    "tamaños_mm": null
+  },
+  "REC-tarjeta-91x61-con-sangrado.pdf": {
+    "paginas": 2,
+    "autor": "REC Ingeniería",
+    "asunto": "Propuesta de tarjeta comercial con QR",
+    "tamaños_mm": [
+      [
+        91.02,
+        61.0
+      ],
+      [
+        91.02,
+        61.0
+      ]
+    ]
+  },
+  "qr": [
+    {
+      "archivo": "qr-rec.png",
+      "destino": "https://recingenieria.com/"
+    },
+    {
+      "archivo": "tarjeta-reverso.png",
+      "destino": "https://recingenieria.com/"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Castro Núñez;Richard;;;
+FN:Richard Castro Núñez
+ORG:REC Ingeniería
+TEL;TYPE=CELL:+34611437071
+TEL;TYPE=CELL:+56971532583
+EMAIL;TYPE=INTERNET,WORK:richard.castro@recltda.cl
+URL:https://recingenieria.com/
+NOTE:España +34 611 437 071. Chile +56 9 7153 2583.
+END:VCARD
