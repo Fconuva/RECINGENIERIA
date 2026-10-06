@@ -1,0 +1,23 @@
+{
+  "fecha": "2026-10-06",
+  "revision_independiente": "APTO digital para presentar opciones y elegir modelo",
+  "paginas_revisadas": 9,
+  "hallazgos_graves_abiertos": 0,
+  "hallazgos_medios_abiertos": 0,
+  "texto_original_preservado": "Nombre, REC Ltda., dos títulos declarados, cinco especialidades, correo y teléfono español en cada modelo",
+  "cambio_autorizado": "Dominio recingenieria.com y retirada del teléfono de Chile",
+  "qr": "https://recingenieria.com/",
+  "qr_verificado_dpi": [200, 600],
+  "metadatos": "REC Ingeniería",
+  "archivos": [
+    {"nombre": "REC-opcion-A-imprimir.pdf", "sha256": "0d1b5f579b3b9d6c4f1a9a686eea6845323531a6d5e1c4825bc46ab75542253b"},
+    {"nombre": "REC-opcion-B-imprimir.pdf", "sha256": "06fc76e1e4a5339f5ff10b5177803186a12440118030b99ffe961e449e4085d6"},
+    {"nombre": "REC-opcion-C-imprimir.pdf", "sha256": "23a1ef179afa668b154f01732ea3f054d47b2d96c89fcd35889faf531a4b98ea"},
+    {"nombre": "REC-opciones-A-B-C.pdf", "sha256": "bf1c23e68dee1fbedd084dc5d7e7e0db8e4819832c511f52aaf7068a9d2db5b3"}
+  ],
+  "tarjeta_anterior_preservada_sha256": "1c99496d369722b07024df9a481f8ab059c9449ae0c8cbff079fc17f16caabca",
+  "web_modificada": false,
+  "informe_modificado": false,
+  "enviado_a_richard": false,
+  "pendientes": ["Elección del modelo", "Prueba física y condiciones de imprenta antes del lote", "Validación de títulos y atribuciones aplicables en España"]
+}

@@ -1,0 +1,722 @@
+{
+  "autor": "REC Ingeniería",
+  "fecha": "2026-10-06",
+  "qr": "https://recingenieria.com/",
+  "telefono_unico": "+34 611 437 071",
+  "correo": "richard.castro@recltda.cl",
+  "sangrado_mm": 3,
+  "png_ppp": 600,
+  "opciones": [
+    {
+      "opcion": "A",
+      "archivo": "REC-opcion-A-imprimir.pdf",
+      "sha256": "0d1b5f579b3b9d6c4f1a9a686eea6845323531a6d5e1c4825bc46ab75542253b",
+      "corte_mm": [
+        85,
+        55
+      ],
+      "enlaces": [
+        "https://wa.me/34611437071",
+        "mailto:richard.castro@recltda.cl",
+        "https://recingenieria.com/"
+      ],
+      "qr_decodificado": [
+        {
+          "cara": 1,
+          "dpi": 600
+        },
+        {
+          "cara": 1,
+          "dpi": 200
+        }
+      ],
+      "fuentes": [
+        "AAAAAA+DMMono-Regular",
+        "AAAAAA+InstrumentSans-Bold",
+        "AAAAAA+InstrumentSans-Regular",
+        "AAAAAA+Outfit-Bold",
+        "Helvetica",
+        "Times-Roman"
+      ]
+    },
+    {
+      "opcion": "B",
+      "archivo": "REC-opcion-B-imprimir.pdf",
+      "sha256": "06fc76e1e4a5339f5ff10b5177803186a12440118030b99ffe961e449e4085d6",
+      "corte_mm": [
+        85,
+        55
+      ],
+      "enlaces": [
+        "https://wa.me/34611437071",
+        "mailto:richard.castro@recltda.cl",
+        "https://recingenieria.com/"
+      ],
+      "qr_decodificado": [
+        {
+          "cara": 1,
+          "dpi": 600
+        },
+        {
+          "cara": 1,
+          "dpi": 200
+        }
+      ],
+      "fuentes": [
+        "AAAAAA+DMMono-Regular",
+        "AAAAAA+InstrumentSans-Bold",
+        "AAAAAA+InstrumentSans-Regular",
+        "AAAAAA+Outfit-Bold",
+        "Helvetica",
+        "Times-Roman"
+      ]
+    },
+    {
+      "opcion": "C",
+      "archivo": "REC-opcion-C-imprimir.pdf",
+      "sha256": "23a1ef179afa668b154f01732ea3f054d47b2d96c89fcd35889faf531a4b98ea",
+      "corte_mm": [
+        55,
+        85
+      ],
+      "enlaces": [
+        "https://wa.me/34611437071",
+        "mailto:richard.castro@recltda.cl",
+        "https://recingenieria.com/"
+      ],
+      "qr_decodificado": [
+        {
+          "cara": 2,
+          "dpi": 600
+        },
+        {
+          "cara": 2,
+          "dpi": 200
+        }
+      ],
+      "fuentes": [
+        "AAAAAA+DMMono-Regular",
+        "AAAAAA+DMSerifDisplay-Regular",
+        "AAAAAA+InstrumentSans-Bold",
+        "AAAAAA+InstrumentSans-Regular",
+        "AAAAAA+Outfit-Bold",
+        "Helvetica",
+        "Times-Roman"
+      ]
+    }
+  ],
+  "tipografia": [
+    {
+      "opcion": "A",
+      "cara": 1,
+      "texto": "REC",
+      "x_mm": 17,
+      "y_mm": 16,
+      "ancho_mm": 13.518444444444443,
+      "pt": 20
+    },
+    {
+      "opcion": "A",
+      "cara": 1,
+      "texto": "Ingeniería · REC Ltda.",
+      "x_mm": 17,
+      "y_mm": 20,
+      "ancho_mm": 23.88199722222222,
+      "pt": 7
+    },
+    {
+      "opcion": "A",
+      "cara": 1,
+      "texto": "Richard",
+      "x_mm": 8,
+      "y_mm": 29,
+      "ancho_mm": 21.67995833333333,
+      "pt": 17
+    },
+    {
+      "opcion": "A",
+      "cara": 1,
+      "texto": "Castro Núñez",
+      "x_mm": 8,
+      "y_mm": 36,
+      "ancho_mm": 36.58058611111111,
+      "pt": 17
+    },
+    {
+      "opcion": "A",
+      "cara": 1,
+      "texto": "Ingeniero Industrial",
+      "x_mm": 8,
+      "y_mm": 41.5,
+      "ancho_mm": 23.784136666666665,
+      "pt": 7.6
+    },
+    {
+      "opcion": "A",
+      "cara": 1,
+      "texto": "Arquitecto Técnico",
+      "x_mm": 8,
+      "y_mm": 45,
+      "ancho_mm": 23.79218,
+      "pt": 7.6
+    },
+    {
+      "opcion": "A",
+      "cara": 1,
+      "texto": "+34 611 437 071",
+      "x_mm": 8,
+      "y_mm": 50,
+      "ancho_mm": 23.67371722222222,
+      "pt": 9.4
+    },
+    {
+      "opcion": "A",
+      "cara": 1,
+      "texto": "richard.castro@recltda.cl",
+      "x_mm": 8,
+      "y_mm": 54,
+      "ancho_mm": 29.21,
+      "pt": 7.2
+    },
+    {
+      "opcion": "A",
+      "cara": 1,
+      "texto": "recingenieria.com",
+      "x_mm": 61.22334444444444,
+      "y_mm": 54,
+      "ancho_mm": 21.55331111111111,
+      "pt": 7
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "NUESTRA",
+      "x_mm": 8,
+      "y_mm": 12,
+      "ancho_mm": 11.853333333333332,
+      "pt": 7
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "Especialización",
+      "x_mm": 8,
+      "y_mm": 19,
+      "ancho_mm": 39.91186666666666,
+      "pt": 16
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "01",
+      "x_mm": 8,
+      "y_mm": 27,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "Inspección civil de obras (ITO)",
+      "x_mm": 15,
+      "y_mm": 27.0,
+      "ancho_mm": 40.89992666666667,
+      "pt": 8.4
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "02",
+      "x_mm": 8,
+      "y_mm": 33.2,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "Geotecnia y mecánica de suelos",
+      "x_mm": 15,
+      "y_mm": 33.2,
+      "ancho_mm": 43.35949333333333,
+      "pt": 8.4
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "03",
+      "x_mm": 8,
+      "y_mm": 39.4,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "Memorias de cálculo",
+      "x_mm": 15,
+      "y_mm": 39.4,
+      "ancho_mm": 27.911636666666666,
+      "pt": 8.4
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "y análisis estructurales",
+      "x_mm": 15,
+      "y_mm": 43.199999999999996,
+      "ancho_mm": 30.569746666666667,
+      "pt": 8.4
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "04",
+      "x_mm": 8,
+      "y_mm": 48,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "Riego y fertirriego tecnificado",
+      "x_mm": 15,
+      "y_mm": 48.0,
+      "ancho_mm": 40.2717,
+      "pt": 8.4
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "05",
+      "x_mm": 8,
+      "y_mm": 54,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "A",
+      "cara": 2,
+      "texto": "Ingeniería con inteligencia artificial",
+      "x_mm": 15,
+      "y_mm": 54.0,
+      "ancho_mm": 47.087366666666675,
+      "pt": 8.4
+    },
+    {
+      "opcion": "B",
+      "cara": 1,
+      "texto": "REC",
+      "x_mm": 17,
+      "y_mm": 14,
+      "ancho_mm": 13.518444444444443,
+      "pt": 20
+    },
+    {
+      "opcion": "B",
+      "cara": 1,
+      "texto": "Ingeniería · REC Ltda.",
+      "x_mm": 17,
+      "y_mm": 18,
+      "ancho_mm": 23.88199722222222,
+      "pt": 7
+    },
+    {
+      "opcion": "B",
+      "cara": 1,
+      "texto": "Richard Castro Núñez",
+      "x_mm": 8,
+      "y_mm": 28,
+      "ancho_mm": 58.16529444444444,
+      "pt": 17
+    },
+    {
+      "opcion": "B",
+      "cara": 1,
+      "texto": "Ingeniero Industrial - Arquitecto Técnico",
+      "x_mm": 8,
+      "y_mm": 34,
+      "ancho_mm": 49.34743749999999,
+      "pt": 7.5
+    },
+    {
+      "opcion": "B",
+      "cara": 1,
+      "texto": "+34 611 437 071",
+      "x_mm": 8,
+      "y_mm": 46,
+      "ancho_mm": 28.20698222222222,
+      "pt": 11.2
+    },
+    {
+      "opcion": "B",
+      "cara": 1,
+      "texto": "richard.castro@recltda.cl",
+      "x_mm": 8,
+      "y_mm": 52,
+      "ancho_mm": 31.238472222222217,
+      "pt": 7.7
+    },
+    {
+      "opcion": "B",
+      "cara": 1,
+      "texto": "recingenieria.com",
+      "x_mm": 61.22334444444444,
+      "y_mm": 54,
+      "ancho_mm": 21.55331111111111,
+      "pt": 7
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "NUESTRA ESPECIALIZACIÓN",
+      "x_mm": 8,
+      "y_mm": 14,
+      "ancho_mm": 50.32614888888889,
+      "pt": 10.4
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "01",
+      "x_mm": 8,
+      "y_mm": 26,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "Inspección civil de obras (ITO)",
+      "x_mm": 15,
+      "y_mm": 26.0,
+      "ancho_mm": 41.386830555555555,
+      "pt": 8.5
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "02",
+      "x_mm": 8,
+      "y_mm": 32.5,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "Geotecnia y mecánica de suelos",
+      "x_mm": 15,
+      "y_mm": 32.5,
+      "ancho_mm": 43.87567777777778,
+      "pt": 8.5
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "03",
+      "x_mm": 8,
+      "y_mm": 39,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "Memorias de cálculo",
+      "x_mm": 15,
+      "y_mm": 39.0,
+      "ancho_mm": 28.243918055555557,
+      "pt": 8.5
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "y análisis estructurales",
+      "x_mm": 15,
+      "y_mm": 42.8,
+      "ancho_mm": 30.93367222222222,
+      "pt": 8.5
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "04",
+      "x_mm": 8,
+      "y_mm": 47.5,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "Riego y fertirriego tecnificado",
+      "x_mm": 15,
+      "y_mm": 47.5,
+      "ancho_mm": 40.751125,
+      "pt": 8.5
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "05",
+      "x_mm": 8,
+      "y_mm": 54,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "B",
+      "cara": 2,
+      "texto": "Ingeniería con inteligencia artificial",
+      "x_mm": 15,
+      "y_mm": 54.0,
+      "ancho_mm": 47.64793055555555,
+      "pt": 8.5
+    },
+    {
+      "opcion": "C",
+      "cara": 1,
+      "texto": "REC",
+      "x_mm": 17,
+      "y_mm": 16,
+      "ancho_mm": 13.518444444444443,
+      "pt": 20
+    },
+    {
+      "opcion": "C",
+      "cara": 1,
+      "texto": "Ingeniería · REC Ltda.",
+      "x_mm": 17,
+      "y_mm": 20,
+      "ancho_mm": 23.88199722222222,
+      "pt": 7
+    },
+    {
+      "opcion": "C",
+      "cara": 1,
+      "texto": "Richard",
+      "x_mm": 8,
+      "y_mm": 54,
+      "ancho_mm": 24.800277777777776,
+      "pt": 20
+    },
+    {
+      "opcion": "C",
+      "cara": 1,
+      "texto": "Castro Núñez",
+      "x_mm": 8,
+      "y_mm": 62,
+      "ancho_mm": 40.01911111111111,
+      "pt": 20
+    },
+    {
+      "opcion": "C",
+      "cara": 1,
+      "texto": "Ingeniero Industrial",
+      "x_mm": 8,
+      "y_mm": 68,
+      "ancho_mm": 25.035933333333332,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 1,
+      "texto": "Arquitecto Técnico",
+      "x_mm": 8,
+      "y_mm": 72,
+      "ancho_mm": 25.0444,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 1,
+      "texto": "+34 611 437 071",
+      "x_mm": 8,
+      "y_mm": 78.5,
+      "ancho_mm": 27.703286111111108,
+      "pt": 11
+    },
+    {
+      "opcion": "C",
+      "cara": 1,
+      "texto": "richard.castro@recltda.cl",
+      "x_mm": 8,
+      "y_mm": 84,
+      "ancho_mm": 32.455555555555556,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "NUESTRA",
+      "x_mm": 8,
+      "y_mm": 12.5,
+      "ancho_mm": 11.641666666666666,
+      "pt": 7
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "Especialización",
+      "x_mm": 8,
+      "y_mm": 20,
+      "ancho_mm": 36.05741666666666,
+      "pt": 15
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "01",
+      "x_mm": 8,
+      "y_mm": 27,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "Inspección civil de",
+      "x_mm": 15,
+      "y_mm": 27.0,
+      "ancho_mm": 23.511933333333328,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "obras (ITO)",
+      "x_mm": 15,
+      "y_mm": 30.6,
+      "ancho_mm": 14.875933333333332,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "02",
+      "x_mm": 8,
+      "y_mm": 34.5,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "Geotecnia y mecánica",
+      "x_mm": 15,
+      "y_mm": 34.5,
+      "ancho_mm": 28.614511111111106,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "de suelos",
+      "x_mm": 15,
+      "y_mm": 38.1,
+      "ancho_mm": 12.115799999999998,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "03",
+      "x_mm": 8,
+      "y_mm": 42,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "Memorias de cálculo",
+      "x_mm": 15,
+      "y_mm": 42.0,
+      "ancho_mm": 26.58251111111111,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "y análisis estructurales",
+      "x_mm": 15,
+      "y_mm": 45.6,
+      "ancho_mm": 29.114044444444442,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "04",
+      "x_mm": 8,
+      "y_mm": 49.5,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "Riego y fertirriego",
+      "x_mm": 15,
+      "y_mm": 49.5,
+      "ancho_mm": 23.21842222222222,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "tecnificado",
+      "x_mm": 15,
+      "y_mm": 53.1,
+      "ancho_mm": 14.571133333333332,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "05",
+      "x_mm": 8,
+      "y_mm": 57,
+      "ancho_mm": 2.963333333333333,
+      "pt": 7
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "Ingeniería con",
+      "x_mm": 15,
+      "y_mm": 57.0,
+      "ancho_mm": 18.316222222222223,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "inteligencia artificial",
+      "x_mm": 15,
+      "y_mm": 60.6,
+      "ancho_mm": 25.964444444444446,
+      "pt": 8
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "REC Ltda.",
+      "x_mm": 8,
+      "y_mm": 78,
+      "ancho_mm": 11.349566666666666,
+      "pt": 7
+    },
+    {
+      "opcion": "C",
+      "cara": 2,
+      "texto": "recingenieria.com",
+      "x_mm": 8,
+      "y_mm": 84,
+      "ancho_mm": 21.55331111111111,
+      "pt": 7
+    }
+  ]
+}
