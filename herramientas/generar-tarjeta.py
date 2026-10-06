@@ -117,15 +117,16 @@ rect(0, 0, 91, 61, PAPER)
 rect(58.5, 20.5, 32.5, 40.5, '#EAF0F2')
 text('Richard Castro Núñez', 8.0, 13.0, 15.0, 'OutfitBold', NAVY,
      tracking=-.22, max_width=75)
-text('REC Ingeniería', 8.1, 17.3, 7.4, 'Instrument', MUTED)
-text('ESPAÑA / CHILE', 83, 17.3, 6.5, 'Mono', BLUE, align='right')
+text('REC Ingeniería · Apoyo técnico a estudios y empresas', 8.1, 17.3,
+     6.8, 'Instrument', MUTED, max_width=62)
+text('ESPAÑA', 83, 17.3, 6.5, 'Mono', BLUE, align='right')
 line(8.0, 20.5, 83, 20.5, BLUE, .18)
 text('WhatsApp España', 8, 26.1, 6.8, color=MUTED)
 text('+34 611 437 071', 8, 31.4, 11.2, 'InstrumentBold', BLUE, max_width=45)
-text('WhatsApp Chile', 8, 37.9, 6.8, color=MUTED)
-text('+56 9 7153 2583', 8, 43.2, 11.2, 'InstrumentBold', BLUE, max_width=45)
+text('Correo electrónico', 8, 37.9, 6.8, color=MUTED)
+text('richard.castro@recltda.cl', 8, 43.2, 7.7, 'Instrument', BLUE, max_width=45)
 line(8, 46.3, 52, 46.3, '#C6CED0', .12)
-text('richard.castro@recltda.cl', 8, 51.0, 7.7, 'Instrument', BLUE,
+text('Hablemos de su proyecto.', 8, 51.0, 8.0, 'Outfit', BLUE,
      max_width=45)
 code = qr.QrCodeWidget(URL, barLevel='M', barBorder=4)
 bd = code.getBounds()
@@ -151,8 +152,7 @@ text('recingenieria.com', 72, 53.5, 7.0, 'InstrumentBold', BLUE,
      align='center', max_width=23)
 for url, box in [
     ('https://wa.me/34611437071', (8, 24, 53, 33)),
-    ('https://wa.me/56971532583', (8, 36, 53, 45)),
-    ('mailto:richard.castro@recltda.cl', (8, 47, 53, 53)),
+    ('mailto:richard.castro@recltda.cl', (8, 36, 53, 45)),
     (URL, (60, 22, 84, 55)),
 ]:
     x1,y1,x2,y2=box
@@ -223,10 +223,12 @@ doc=fitz.open(pdf)
 assert len(doc)==2
 assert doc.metadata['author']=='REC Ingeniería'
 body='\n'.join(page.get_text() for page in doc)
-for value in ['Richard Castro Núñez','+34 611 437 071','+56 9 7153 2583',
+for value in ['Richard Castro Núñez','+34 611 437 071',
               'richard.castro@recltda.cl','Suelo y estructuras',
               'Seguimiento de obras','Riego y fertirriego']:
     assert value in body, value
+assert '+56' not in body and 'CHILE' not in body
+assert not any('56971532583' in l.get('uri','') for page in doc for l in page.get_links())
 proof={'identidad':'REC Ingeniería','version':'Materia precisa, 6 octubre 2026',
        'paginas':2,'corte_mm':[85,55],'sangrado_mm':3,'png_ppp':600,
        'qr_destino':URL,'texto_vectorial':True,

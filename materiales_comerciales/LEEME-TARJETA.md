@@ -1,6 +1,6 @@
 # Tarjeta REC Ingeniería: Materia precisa
 
-Revisión del 6 de octubre de 2026. Dos caras nuevas: frente azul profundo con una estructura conceptual que pasa de materia a dibujo; reverso claro con el nombre completo, los dos WhatsApp, correo y contacto digital.
+Revisión del 6 de octubre de 2026. Dos caras: frente azul profundo con una estructura conceptual que pasa de materia a dibujo; reverso claro con el nombre completo, apoyo técnico a estudios y empresas, WhatsApp de España, correo y contacto digital. El WhatsApp de Chile se ha retirado de las tarjetas física y digital.
 
 ## Archivos
 
@@ -17,7 +17,7 @@ Corte final: **85 × 55 mm**. Archivo: **91 × 61 mm**, con **3 mm de sangrado**
 
 Nombre en Outfit; contactos en Instrument Sans; indicación de países en DM Mono. Teléfonos a 11,2 puntos, correo a 7,7 puntos y servicios a 7,5 puntos. Los datos necesarios para contactar tienen un mínimo de 6,5 puntos. El pequeño rótulo de la ilustración y el título auxiliar del QR no forman parte de esos datos esenciales.
 
-El QR mide 22 mm, con cuatro módulos blancos de margen. Destino estable: https://recingenieria.com/. La lectura digital se verifica desde el PNG final y el PDF. El sitio permite escoger WhatsApp España o Chile.
+El QR mide 22 mm, con cuatro módulos blancos de margen. Destino estable: https://recingenieria.com/. La lectura digital se verifica desde el PNG final y el PDF. El sitio y el contacto descargable utilizan solo el número de España.
 
 ## Regenerar
 

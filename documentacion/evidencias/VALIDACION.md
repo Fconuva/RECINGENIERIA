@@ -1,5 +1,13 @@
 # Validación del encargo comercial completo
 
+## Revisión vigente: contacto España y formato REC
+
+6 de octubre de 2026. La tarjeta física, la web y la vCard utilizan solo WhatsApp España. El reverso incluye «Apoyo técnico a estudios y empresas». Nueva auditoría independiente: APTO digital; QR y ambos renders actuales de PowerPoint comprobados. Los hashes vigentes del arte se registran en `tarjeta-materia-precisa.json` y el informe de auditoría detallado permanece privado.
+
+El informe interno se reorganizó con portada propia de REC, ficha, control de revisiones, índice automático, capítulos continuos, tablas/figuras numeradas y pies de página. Se conservan los originales y sus fuentes; la nueva revisión continúa privada. Su comprobación no acredita contratación ni aceptación del cliente.
+
+La tarjeta cumple funciones observables de presentación, recomendación y acceso al contacto. Su efecto en recuerdo, posicionamiento y ventas no se ha medido. Pendientes: prueba impresa a tamaño real, importación en teléfono y validación comercial. Las secciones siguientes documentan las versiones anteriores; la publicación vigente se registra por separado al verificarla.
+
 6 de octubre de 2026. Revisión independiente final: APTO, sin hallazgos graves o medios pendientes en el alcance revisado.
 
 ## Tarjeta vigente: Materia precisa

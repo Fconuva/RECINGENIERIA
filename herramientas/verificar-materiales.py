@@ -33,7 +33,8 @@ for p in [WEB/'assets/qr-rec.png',OUT/'tarjeta-reverso.png']:
     qr.append({'archivo':p.name,'destino':decoded[0].text})
 results['qr']=qr
 html=(WEB/'index.html').read_text(encoding='utf-8')
-assert 'https://wa.me/34611437071' in html and 'https://wa.me/56971532583' in html
+assert 'https://wa.me/34611437071' in html and 'https://wa.me/56971532583' not in html
+assert '+56971532583' not in VCF.read_text(encoding='utf-8')
 assert 'richard.castro@recltda.cl' in html
 assert not re.search('sin errores|eliminar cualquier error humano',html,re.I)
 print(json.dumps(results,ensure_ascii=False,indent=2))

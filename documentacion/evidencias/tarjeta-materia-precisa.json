@@ -1,6 +1,6 @@
 {
   "identidad": "REC Ingeniería",
-  "version": "Materia precisa, 6 octubre 2026",
+  "version": "Materia precisa, España, 6 octubre 2026",
   "paginas": 2,
   "corte_mm": [
     85,
@@ -22,7 +22,6 @@
   "enlaces_pdf": [
     "https://recingenieria.com/",
     "https://wa.me/34611437071",
-    "https://wa.me/56971532583",
     "mailto:richard.castro@recltda.cl",
     "https://recingenieria.com/"
   ],
@@ -100,18 +99,18 @@
       "esencial": true
     },
     {
-      "texto": "REC Ingeniería",
+      "texto": "REC Ingeniería · Apoyo técnico a estudios y empresas",
       "x_mm": 8.1,
       "base_y_mm": 17.3,
-      "ancho_mm": 17.78,
-      "puntos": 7.4,
+      "ancho_mm": 58.15,
+      "puntos": 6.8,
       "esencial": true
     },
     {
-      "texto": "ESPAÑA / CHILE",
-      "x_mm": 63.74,
+      "texto": "ESPAÑA",
+      "x_mm": 74.75,
       "base_y_mm": 17.3,
-      "ancho_mm": 19.26,
+      "ancho_mm": 8.26,
       "puntos": 6.5,
       "esencial": true
     },
@@ -132,27 +131,27 @@
       "esencial": true
     },
     {
-      "texto": "WhatsApp Chile",
+      "texto": "Correo electrónico",
       "x_mm": 8,
       "base_y_mm": 37.9,
-      "ancho_mm": 18.22,
+      "ancho_mm": 20.67,
       "puntos": 6.8,
-      "esencial": true
-    },
-    {
-      "texto": "+56 9 7153 2583",
-      "x_mm": 8,
-      "base_y_mm": 43.2,
-      "ancho_mm": 29.3,
-      "puntos": 11.2,
       "esencial": true
     },
     {
       "texto": "richard.castro@recltda.cl",
       "x_mm": 8,
-      "base_y_mm": 51.0,
+      "base_y_mm": 43.2,
       "ancho_mm": 31.24,
       "puntos": 7.7,
+      "esencial": true
+    },
+    {
+      "texto": "Hablemos de su proyecto.",
+      "x_mm": 8,
+      "base_y_mm": 51.0,
+      "ancho_mm": 32.43,
+      "puntos": 8.0,
       "esencial": true
     },
     {
@@ -171,5 +170,9 @@
       "puntos": 7.0,
       "esencial": true
     }
-  ]
+  ],
+  "contacto": "WhatsApp España +34 611 437 071",
+  "sha256_pdf": "1c99496d369722b07024df9a481f8ab059c9449ae0c8cbff079fc17f16caabca",
+  "sha256_pptx": "7a2c8eb92a109934ab79b243583e4c50991a657628dee106335279fac1e3231d",
+  "auditoria": "APTO digital; prueba física pendiente"
 }

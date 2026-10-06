@@ -21,9 +21,8 @@ with ZipFile(docx) as z:
 with fitz.open(pdf) as d:
     assert len(d)==args.paginas, f'Páginas reales: {len(d)}'
     meta=d.metadata
-    meta.update(author='REC Ingeniería',title=title,subject='Propuesta comercial para revisión',keywords='REC Ingeniería; estrategia comercial; Comunidad Valenciana')
-    d.set_metadata(meta)
-    d.saveIncr()
+    assert meta['author']=='REC Ingeniería'
+    assert meta['title']==title
 with fitz.open(pdf) as d:
     output=pdf.parent/'revision_visual'
     output.mkdir(exist_ok=True)

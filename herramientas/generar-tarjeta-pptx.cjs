@@ -11,7 +11,7 @@ async function main(){
     const s=p.addSlide();
     s.addImage({path:path.join(out,name+'.svg'),x:0,y:0,w:91/25.4,h:61/25.4,
       altText:name==='tarjeta-frente'?'REC Ingeniería, del terreno al proyecto':
-        'Richard Castro Núñez, contactos de España y Chile y QR a recingenieria.com'});
+        'Richard Castro Núñez, contacto de España y QR a recingenieria.com'});
     s.addNotes('REC Ingeniería. Corte 85 × 55 mm, archivo 91 × 61 mm, con sangrado de 3 mm. Imagen conceptual. Contacto digital a recingenieria.com.');
   }
   await p.writeFile({fileName:path.join(out,'REC-tarjeta-91x61-con-sangrado.pptx')});

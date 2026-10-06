@@ -22,6 +22,8 @@ La dirección artística elegida combina composición editorial, grandes imágen
 
 La tarjeta se revisó para dar más fuerza visual y personalidad a la primera composición. La versión «Materia precisa» utiliza una ilustración arquitectónica exclusiva, azul profundo en el frente y papel cálido en el reverso. El nombre se muestra completo en una línea; los contactos tienen mayor peso y el QR ocupa un panel propio. [Dirección artística](direccion-tarjeta.md), [vista de las caras](REC-tarjeta-vista.png) y [especificaciones](LEEME-TARJETA.md).
 
+La revisión vigente aclara el comprador con «Apoyo técnico a estudios y empresas» y utiliza un único WhatsApp español en las tarjetas física y digital. Se conserva el correo profesional de REC y el dominio del QR. Esta decisión centra el contacto; no demuestra por sí misma resultados comerciales.
+
 ## Investigación utilizada y alcance
 
 - Tuch et al. (2012) estudiaron impresiones estéticas de sitios: menor complejidad visual y una estructura familiar resultaron más atractivas en sus experimentos. De ahí se toma una orientación hacia jerarquía clara y pocas decisiones simultáneas. El estudio no mide ventas de ingeniería. [Artículo y resumen de los autores](https://research.google/pubs/the-role-of-visual-complexity-and-prototypicality-regarding-first-impression-of-websites-working-towards-understanding-aesthetic-judgments/).
