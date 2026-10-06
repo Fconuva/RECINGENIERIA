@@ -16,7 +16,7 @@ La investigación pública, el posicionamiento y los guiones están en `material
 
 - [Cinco especialidades: evidencia y oferta](materiales_comerciales/analisis-cinco-especialidades.md).
 - [Identidad visual y fundamento de percepción y diseño](materiales_comerciales/identidad-visual.md).
-- [Presentación comercial en PDF](materiales_comerciales/REC-presentacion-comercial.pdf).
+- [Presentación comercial Rev02 en PDF](materiales_comerciales/REC-presentacion-comercial-Rev02.pdf) y [PowerPoint editable](materiales_comerciales/REC-presentacion-comercial-Rev02.pptx), con contacto español único. La revisión anterior se conserva como historial.
 - [Tarjeta física con sangrado en PDF](materiales_comerciales/REC-tarjeta-91x61-con-sangrado.pdf).
 - [Nueva tarjeta: vista de ambas caras](materiales_comerciales/REC-tarjeta-vista.png) y [especificaciones de impresión](materiales_comerciales/LEEME-TARJETA.md).
 - [Alternativas A, B y C: comparador para compartir](materiales_comerciales/tarjetas-ABC/REC-opciones-A-B-C.pdf) y [fuentes, formatos y guía de uso](materiales_comerciales/tarjetas-ABC/LEAME.md). Estas propuestas conservan las cinco especialidades y los títulos declarados en las tarjetas originales, con el contacto español único.
