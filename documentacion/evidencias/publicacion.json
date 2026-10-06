@@ -1,47 +1,85 @@
 {
   "fecha": "2026-10-06",
   "dominio": "https://recingenieria.com",
-  "commit": "b5ac0331a7cd708f54ccdf5e42bd5a1a23716b0d",
+  "commit": "8d74baecd3bc0ffa0846f0acb265cac68c1ddfef",
   "remoto_verificado": true,
-  "despliegue": "dpl_F6YqCraXn5TLh7fJH1yJtBEqU3ZG",
+  "metodo_remoto": "GitHub connector: GET git/ref/heads/main",
+  "despliegue": "dpl_2MaavLy2CbhEU7hEXsVuZDMttraU",
   "estado": "READY / production",
   "archivos_nuevos": [
     {
       "ruta": "index.html",
       "http": 200,
-      "sha256_local_remoto_igual": true
+      "sha256_local_remoto_igual": true,
+      "metodo": "Comparación HTTP del verificador; salida Comprobado en sesión"
     },
     {
       "ruta": "assets/rec-experience.css",
       "http": 200,
-      "sha256_local_remoto_igual": true
+      "sha256_local_remoto_igual": true,
+      "metodo": "Comparación HTTP del verificador; salida Comprobado en sesión"
     },
     {
       "ruta": "assets/rec-experience.js",
       "http": 200,
-      "sha256_local_remoto_igual": true
+      "sha256_local_remoto_igual": true,
+      "metodo": "Comparación HTTP del verificador; salida Comprobado en sesión"
     },
     {
       "ruta": "assets/rec-hero.mp4",
       "http": 200,
-      "sha256_local_remoto_igual": true
+      "sha256_local_remoto_igual": true,
+      "metodo": "Comparación HTTP del verificador; salida Comprobado en sesión"
     },
     {
-      "ruta": "assets/qr-rec.png",
+      "ruta": "assets/tarjeta-social.png",
       "http": 200,
-      "sha256_local_remoto_igual": true
+      "sha256_local_remoto_igual": true,
+      "metodo": "Comparación HTTP del verificador; salida Comprobado en sesión"
     },
     {
       "ruta": "richard-castro.vcf",
       "http": 200,
-      "sha256_local_remoto_igual": true
+      "sha256_local_remoto_igual": true,
+      "metodo": "Comparación HTTP del verificador; salida Comprobado en sesión"
+    },
+    {
+      "ruta": "assets/rec-marca.svg",
+      "descargado": true,
+      "sha256": "28f311719d8701d314982794bf6414ddd78928f517f20ea67c6651f27cf27e0c",
+      "sha256_local_remoto_igual": true,
+      "metodo": "Descarga pageAssets desde la página de producción"
+    },
+    {
+      "ruta": "assets/rec-simbolo.svg",
+      "descargado": true,
+      "sha256": "2b75c381806a6af03d3f608f7549b84808121216013755c3200584c9356c97e4",
+      "sha256_local_remoto_igual": true,
+      "metodo": "Descarga pageAssets desde la página de producción"
+    },
+    {
+      "ruta": "assets/rec-experience.css?v=20261006-azul",
+      "descargado": true,
+      "sha256": "5916db9627d1194eb595d2c981fb43061350018e31151d35af3266f9b8a795c6",
+      "sha256_local_remoto_igual": true,
+      "metodo": "Descarga pageAssets desde la página de producción"
+    },
+    {
+      "ruta": "assets/qr-rec.png",
+      "descargado": true,
+      "sha256": "48c718e5dff29a7d7cb29c599c275466e9b9ec1108dc62f304543ca0817b6abf",
+      "sha256_local_remoto_igual": true,
+      "metodo": "Descarga pageAssets desde la página de producción"
     }
   ],
   "entregas_y_visores_conservados": 96,
-  "pdf_heredado_muestra": {
-    "http": 200,
-    "sha256_igual": true
+  "continuidad_metodo": "UID iguales en manifiestos de producción original y final",
+  "identidad_visual": {
+    "marca": "REC Ingeniería, azul estructural",
+    "css_versionado": "20261006-azul",
+    "acento_computado": "#78b6d4",
+    "boton_principal_computado": "rgb(234, 242, 247)",
+    "movil_produccion": "390 × 844, sin desbordamiento, dos WhatsApp visibles"
   },
-  "redirect_servicios": "https://recingenieria.com/#servicios",
   "correo_o_whatsapp_enviado": false
 }
