@@ -1,7 +1,18 @@
 {
-  "name": "rec-ingenieria-materiales", "version": "1.0.0", "private": true,
+  "name": "rec-ingenieria-materiales",
+  "version": "1.0.0",
+  "private": true,
   "description": "Herramientas para la tarjeta y la presentación de REC Ingeniería",
-  "scripts": {"materiales": "node herramientas/generar-materiales.cjs"},
-  "devDependencies": {"pptxgenjs": "4.0.0", "qrcode": "1.5.4", "sharp": "0.35.5"},
-  "overrides": {"image-size": "2.0.3"}
+  "scripts": {
+    "materiales": "node herramientas/generar-materiales.cjs"
+  },
+  "devDependencies": {
+    "docx": "^9.8.1",
+    "pptxgenjs": "4.0.0",
+    "qrcode": "1.5.4",
+    "sharp": "0.35.5"
+  },
+  "overrides": {
+    "image-size": "2.0.3"
+  }
 }

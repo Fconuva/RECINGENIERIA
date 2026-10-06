@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 130" role="img" aria-labelledby="titulo">
+  <title id="titulo">REC Ingeniería</title>
+  <g fill="none" stroke="#123a62" stroke-width="7" stroke-linejoin="miter">
+    <path d="M12 112V31h74v81M12 54h74M49 54v58"/>
+    <path d="M12 31 34 12h74v81L86 112M86 31l22-19M86 54l22-19" stroke-width="4"/>
+  </g>
+  <text x="126" y="85" fill="#123a62" font-family="Arial, sans-serif" font-size="92" font-weight="700" letter-spacing="-4">REC</text>
+  <text x="132" y="119" fill="#123a62" font-family="Arial, sans-serif" font-size="26" letter-spacing="1.2">INGENIERÍA</text>
+</svg>

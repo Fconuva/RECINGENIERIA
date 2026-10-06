@@ -14,6 +14,13 @@ Repositorio público de la web y los materiales comerciales de Richard Castro N�
 
 La investigación pública, el posicionamiento y los guiones están en `materiales_comerciales/`. El expediente interno S003 se conserva únicamente en el PC. Las propuestas de presentación, tarjeta y QR se generan con `npm ci` y `npm run materiales`. Son propuestas para revisión; no prueban demanda comercial ni atribuciones profesionales en España.
 
+- [Cinco especialidades: evidencia y oferta](materiales_comerciales/analisis-cinco-especialidades.md).
+- [Identidad visual y fundamento de percepción y diseño](materiales_comerciales/identidad-visual.md).
+- [Presentación comercial en PDF](materiales_comerciales/REC-presentacion-comercial.pdf).
+- [Tarjeta física con sangrado en PDF](materiales_comerciales/REC-tarjeta-91x61-con-sangrado.pdf).
+
+Identidad común: azul de REC y un símbolo estructural simplificado, con nombre comercial REC Ingeniería. La selección de estilo se explica como decisión de diseño; la investigación académica no se presenta como garantía de confianza o ventas.
+
 ## Archivo y privacidad
 
 Los originales locales no se borran ni se modifican. `90_ARCHIVO_HISTORICO/` conserva copias verificadas de fuentes pequeñas organizadas por procedencia, con sus instrucciones históricas. Los binarios grandes permanecen en sus carpetas originales, identificados en el inventario local. El archivo histórico completo no está en GitHub.
