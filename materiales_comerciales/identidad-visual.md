@@ -6,18 +6,21 @@ Decisión de diseño, 6 de octubre de 2026: conservar las siglas REC y el azul e
 
 | Elemento | Aplicación |
 |---|---|
-| Azul principal | `#123A62`: marca, reverso de tarjeta y presentación |
+| Azul principal | `#123A62`: marca, contactos de tarjeta y presentación |
 | Azul profundo | `#0C2235`: escenario de imágenes y web |
 | Azul claro | `#78B6D4`: acentos sobre fondo oscuro; no texto pequeño sobre blanco |
 | Fondo cálido | `#F7F6F2`: lectura y contraste con las imágenes |
 | Texto | `#18344B`; secundario `#526574` |
-| Tipografía | Segoe UI / Arial, con tamaños y jerarquía consistentes |
+| Tipografía de tarjeta | Outfit para marca y nombre, Instrument Sans para lectura y DM Mono para países. Fuentes y licencias incluidas. |
+| Tipografía de web y presentación | Sistema anterior; la revisión de tarjeta incorpora una nueva composición independiente. |
 | Marca | `00_SITIO_WEB_REC/assets/rec-marca.svg`: vector escalable |
 | Símbolo | `00_SITIO_WEB_REC/assets/rec-simbolo.svg`: favicon y espacios pequeños |
 | Imagen | Terreno, estructuras y riego, con luz cálida y geometría técnica. Son imágenes conceptuales; no obras acreditadas de REC. |
 | Movimiento | Video breve sin sonido, transiciones de entrada y aproximación de imágenes. Control de pausa y respeto a movimiento reducido. |
 
 La dirección artística elegida combina composición editorial, grandes imágenes y geometría de estructuras. Es una decisión para este proyecto, sin atribuirla a una tendencia universal ni a una preferencia medida de sus clientes. Los contactos tienen prioridad sobre la animación. En la tarjeta se conservan tres líneas cortas de servicio; en la presentación, situaciones y entregables reconocibles.
+
+La tarjeta se revisó para dar más fuerza visual y personalidad a la primera composición. La versión «Materia precisa» utiliza una ilustración arquitectónica exclusiva, azul profundo en el frente y papel cálido en el reverso. El nombre se muestra completo en una línea; los contactos tienen mayor peso y el QR ocupa un panel propio. [Dirección artística](direccion-tarjeta.md), [vista de las caras](REC-tarjeta-vista.png) y [especificaciones](LEEME-TARJETA.md).
 
 ## Investigación utilizada y alcance
 

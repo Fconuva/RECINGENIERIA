@@ -1,0 +1,175 @@
+{
+  "identidad": "REC Ingeniería",
+  "version": "Materia precisa, 6 octubre 2026",
+  "paginas": 2,
+  "corte_mm": [
+    85,
+    55
+  ],
+  "sangrado_mm": 3,
+  "png_ppp": 600,
+  "qr_destino": "https://recingenieria.com/",
+  "texto_vectorial": true,
+  "fuentes_pdf": [
+    "AAAAAA+DMMono-Regular",
+    "AAAAAA+InstrumentSans-Bold",
+    "AAAAAA+InstrumentSans-Regular",
+    "AAAAAA+Outfit-Bold",
+    "AAAAAA+Outfit-Regular",
+    "Helvetica",
+    "Times-Roman"
+  ],
+  "enlaces_pdf": [
+    "https://recingenieria.com/",
+    "https://wa.me/34611437071",
+    "https://wa.me/56971532583",
+    "mailto:richard.castro@recltda.cl",
+    "https://recingenieria.com/"
+  ],
+  "tipografia": [
+    {
+      "texto": "REC",
+      "x_mm": 19.7,
+      "base_y_mm": 17.0,
+      "ancho_mm": 19.52,
+      "puntos": 29,
+      "esencial": true
+    },
+    {
+      "texto": "INGENIERÍA",
+      "x_mm": 19.9,
+      "base_y_mm": 21.0,
+      "ancho_mm": 17.69,
+      "puntos": 7.6,
+      "esencial": true
+    },
+    {
+      "texto": "Del terreno",
+      "x_mm": 8.0,
+      "base_y_mm": 32.0,
+      "ancho_mm": 32.57,
+      "puntos": 18.6,
+      "esencial": true
+    },
+    {
+      "texto": "al proyecto.",
+      "x_mm": 8.0,
+      "base_y_mm": 39.2,
+      "ancho_mm": 34.08,
+      "puntos": 18.6,
+      "esencial": true
+    },
+    {
+      "texto": "Suelo y estructuras",
+      "x_mm": 8.0,
+      "base_y_mm": 47.0,
+      "ancho_mm": 23.19,
+      "puntos": 7.5,
+      "esencial": true
+    },
+    {
+      "texto": "Seguimiento de obras",
+      "x_mm": 8.0,
+      "base_y_mm": 50.4,
+      "ancho_mm": 26.55,
+      "puntos": 7.5,
+      "esencial": true
+    },
+    {
+      "texto": "Riego y fertirriego",
+      "x_mm": 8.0,
+      "base_y_mm": 53.8,
+      "ancho_mm": 21.77,
+      "puntos": 7.5,
+      "esencial": true
+    },
+    {
+      "texto": "Visual conceptual",
+      "x_mm": 68.6,
+      "base_y_mm": 53.8,
+      "ancho_mm": 14.4,
+      "puntos": 5.0,
+      "esencial": false
+    },
+    {
+      "texto": "Richard Castro Núñez",
+      "x_mm": 8.0,
+      "base_y_mm": 13.0,
+      "ancho_mm": 51.62,
+      "puntos": 15.0,
+      "esencial": true
+    },
+    {
+      "texto": "REC Ingeniería",
+      "x_mm": 8.1,
+      "base_y_mm": 17.3,
+      "ancho_mm": 17.78,
+      "puntos": 7.4,
+      "esencial": true
+    },
+    {
+      "texto": "ESPAÑA / CHILE",
+      "x_mm": 63.74,
+      "base_y_mm": 17.3,
+      "ancho_mm": 19.26,
+      "puntos": 6.5,
+      "esencial": true
+    },
+    {
+      "texto": "WhatsApp España",
+      "x_mm": 8,
+      "base_y_mm": 26.1,
+      "ancho_mm": 20.61,
+      "puntos": 6.8,
+      "esencial": true
+    },
+    {
+      "texto": "+34 611 437 071",
+      "x_mm": 8,
+      "base_y_mm": 31.4,
+      "ancho_mm": 28.21,
+      "puntos": 11.2,
+      "esencial": true
+    },
+    {
+      "texto": "WhatsApp Chile",
+      "x_mm": 8,
+      "base_y_mm": 37.9,
+      "ancho_mm": 18.22,
+      "puntos": 6.8,
+      "esencial": true
+    },
+    {
+      "texto": "+56 9 7153 2583",
+      "x_mm": 8,
+      "base_y_mm": 43.2,
+      "ancho_mm": 29.3,
+      "puntos": 11.2,
+      "esencial": true
+    },
+    {
+      "texto": "richard.castro@recltda.cl",
+      "x_mm": 8,
+      "base_y_mm": 51.0,
+      "ancho_mm": 31.24,
+      "puntos": 7.7,
+      "esencial": true
+    },
+    {
+      "texto": "CONTACTO DIGITAL",
+      "x_mm": 60.57,
+      "base_y_mm": 49.4,
+      "ancho_mm": 22.87,
+      "puntos": 6.2,
+      "esencial": false
+    },
+    {
+      "texto": "recingenieria.com",
+      "x_mm": 61.22,
+      "base_y_mm": 53.5,
+      "ancho_mm": 21.55,
+      "puntos": 7.0,
+      "esencial": true
+    }
+  ]
+}

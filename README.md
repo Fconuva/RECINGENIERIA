@@ -18,6 +18,7 @@ La investigación pública, el posicionamiento y los guiones están en `material
 - [Identidad visual y fundamento de percepción y diseño](materiales_comerciales/identidad-visual.md).
 - [Presentación comercial en PDF](materiales_comerciales/REC-presentacion-comercial.pdf).
 - [Tarjeta física con sangrado en PDF](materiales_comerciales/REC-tarjeta-91x61-con-sangrado.pdf).
+- [Nueva tarjeta: vista de ambas caras](materiales_comerciales/REC-tarjeta-vista.png) y [especificaciones de impresión](materiales_comerciales/LEEME-TARJETA.md).
 
 Identidad común: azul de REC y un símbolo estructural simplificado, con nombre comercial REC Ingeniería. La selección de estilo se explica como decisión de diseño; la investigación académica no se presenta como garantía de confianza o ventas.
 
@@ -29,6 +30,6 @@ Por decisión del usuario, el repositorio se mantiene público: los informes de 
 
 ## Generación y despliegue
 
-`npm ci` y `npm run materiales` generan las propuestas desde las imágenes incluidas. En Windows, `herramientas/exportar-office.ps1` exporta PDF con Microsoft PowerPoint; `py -3.12 herramientas/verificar-materiales.py` verifica QR, contactos y formato de corte.
+`npm ci` y `npm run materiales` generan las propuestas desde las imágenes incluidas. `npm run tarjetas` reconstruye solo las dos caras, su PDF vectorial y PowerPoint; requiere Python 3.12 con reportlab, pymupdf, zxing-cpp y Pillow. En Windows, `herramientas/exportar-office.ps1` exporta el PDF de la presentación con Microsoft PowerPoint y conserva el PDF vectorial de la tarjeta; `py -3.12 herramientas/verificar-materiales.py` verifica QR, contactos y formato de corte.
 
 La web se puede previsualizar con un servidor estático. El despliegue de producción requiere la copia local de los informes y sus visores heredados, excluidos del clon público, para conservar enlaces ya entregados. Desde `00_SITIO_WEB_REC/`, usar Vercel CLI para vista previa y, tras revisión independiente, producción en el proyecto existente.

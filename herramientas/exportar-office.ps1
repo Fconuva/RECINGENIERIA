@@ -8,13 +8,18 @@ try {
     foreach ($recFile in @('REC-presentacion-comercial','REC-tarjeta-91x61-con-sangrado')) {
         $recDeck = $recPowerPoint.Presentations.Open((Join-Path $recMaterial ($recFile+'.pptx')), -1, 0, 0)
         try {
-            $recDeck.SaveAs((Join-Path $recMaterial ($recFile+'.pdf')), 32)
             if ($recFile -eq 'REC-presentacion-comercial') {
+                $recDeck.SaveAs((Join-Path $recMaterial ($recFile+'.pdf')), 32)
                 for ($recN=1; $recN -le $recDeck.Slides.Count; $recN++) {
                     $recDeck.Slides.Item($recN).Export((Join-Path $recEvidence ('diapositiva-{0:00}.png' -f $recN)), 'PNG', 1600, 900)
                 }
             }
-            Write-Output ($recFile+': '+$recDeck.Slides.Count+' diapositivas, PDF exportado')
+            if ($recFile -eq 'REC-tarjeta-91x61-con-sangrado') {
+                for ($recN=1; $recN -le $recDeck.Slides.Count; $recN++) {
+                    $recDeck.Slides.Item($recN).Export((Join-Path $recEvidence ('tarjeta-ppt-{0:00}.png' -f $recN)), 'PNG', 2150, 1441)
+                }
+            }
+            Write-Output ($recFile+': '+$recDeck.Slides.Count+' diapositivas, PDF de tarjeta conservado')
         } finally { $recDeck.Close() }
     }
 } finally {

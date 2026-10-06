@@ -4,7 +4,8 @@
   "private": true,
   "description": "Herramientas para la tarjeta y la presentación de REC Ingeniería",
   "scripts": {
-    "materiales": "node herramientas/generar-materiales.cjs"
+    "materiales": "node herramientas/generar-materiales.cjs",
+    "tarjetas": "py -3.12 herramientas/generar-tarjeta.py && node herramientas/generar-tarjeta-pptx.cjs"
   },
   "devDependencies": {
     "docx": "^9.8.1",

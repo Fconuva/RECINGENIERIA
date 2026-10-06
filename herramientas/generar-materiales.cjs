@@ -13,12 +13,8 @@ const qrSvg=await QR.toString('https://recingenieria.com/',{type:'svg',errorCorr
 fs.writeFileSync(path.join(web,'assets/qr-rec.svg'),qrSvg);
 await QR.toFile(path.join(web,'assets/qr-rec.png'),'https://recingenieria.com/',{width:600,errorCorrectionLevel:'M',margin:4,color:{dark:'#123a62',light:'#ffffff'}});
 const data='data:image/png;base64,'+fs.readFileSync(logo).toString('base64');
-const qrdata='data:image/png;base64,'+fs.readFileSync(path.join(web,'assets/qr-rec.png')).toString('base64');
 const sueloData='data:image/png;base64,'+fs.readFileSync(path.join(out,'imagenes/suelo.png')).toString('base64');
 const svgText=(text,x,y,size,color='#18344b',bold=false)=>`<text x="${x}" y="${y}" font-family="Segoe UI, Arial, sans-serif" font-size="${size}" fill="${color}" font-weight="${bold?600:400}">${esc(text)}</text>`;
-const front=`<svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="61mm" viewBox="0 0 910 610"><defs><clipPath id="foto"><rect x="550" y="0" width="360" height="610"/></clipPath></defs><rect width="910" height="610" fill="#fff"/><image href="${sueloData}" x="550" y="0" width="360" height="610" preserveAspectRatio="xMaxYMid slice" clip-path="url(#foto)"/><image href="${data}" x="70" y="60" width="330" height="113"/>${svgText('Richard Castro',70,285,43,'#18344b',true)}${svgText('Núñez',70,335,43,'#18344b',true)}${svgText('Criterio técnico para decidir',70,400,22)}${svgText('y avanzar en su proyecto.',70,435,22)}${svgText('recingenieria.com',70,535,22,'#123a62',true)}${svgText('Imagen conceptual',585,550,13,'#fff')}</svg>`;
-const back=`<svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="61mm" viewBox="0 0 910 610"><rect width="910" height="610" fill="#123a62"/>${svgText('SUELO Y ESTRUCTURAS',75,110,23,'#fff',true)}${svgText('SEGUIMIENTO DE OBRAS',75,156,23,'#fff',true)}${svgText('RIEGO Y FERTIRRIEGO',75,202,23,'#fff',true)}${svgText('ESPAÑA',75,315,16,'#bad3e7',true)}${svgText('+34 611 437 071',75,353,26,'#fff')}${svgText('CHILE',75,408,16,'#bad3e7',true)}${svgText('+56 9 7153 2583',75,446,26,'#fff')}${svgText('richard.castro@recltda.cl',75,520,21,'#fff')}<image href="${qrdata}" x="625" y="287" width="220" height="220"/>${svgText('Contacto y WhatsApp',625,537,16,'#fff')}</svg>`;
-for(const [name,s] of [['tarjeta-frente',front],['tarjeta-reverso',back]]){fs.writeFileSync(path.join(out,name+'.svg'),s);await sharp(Buffer.from(s),{density:300}).resize(1075,721,{fit:'fill'}).withMetadata({density:300}).png().toFile(path.join(out,name+'.png'));}
 const social=`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"><defs><clipPath id="social-foto"><rect x="810" width="390" height="630"/></clipPath></defs><rect width="1200" height="630" fill="#f5f4f0"/><image href="${sueloData}" x="810" y="0" width="390" height="630" preserveAspectRatio="xMaxYMid slice" clip-path="url(#social-foto)"/><image href="${data}" x="70" y="50" width="285" height="98"/>${svgText('Richard Castro',70,275,64,'#18344b',true)}${svgText('Núñez',70,353,64,'#18344b',true)}${svgText('Criterio técnico para decidir',70,432,32)}${svgText('y avanzar en su proyecto.',70,476,32)}${svgText('recingenieria.com',70,566,26,'#123a62',true)}${svgText('Imagen conceptual',842,582,14,'#fff')}</svg>`;
 await sharp(Buffer.from(social)).png().toFile(path.join(web,'assets/tarjeta-social.png'));
 const p=new PptxGenJS();p.layout='LAYOUT_WIDE';p.author='REC Ingeniería';p.subject='Propuesta comercial';p.title='REC Ingeniería | Criterio técnico para decidir';p.company='REC Ingeniería';p.lang='es-ES';
@@ -39,17 +35,11 @@ box(s,.7,2.8,5.65,2.95,B);txt(s,'Para estudios y empresas',1,3.12,5,.7,27,'FFFFF
 s=base(7,'La referencia que buscamos esta semana');box(s,.7,2.72,11.85,2.6,'FFFFFF');txt(s,'Un responsable de estudio o empresa\ncon una cimentación o estructura\npendiente de revisión.',1.1,3.0,10.95,1.9,32,INK,true);txt(s,'Si escucha «necesitamos revisar este cálculo»,\nuna presentación consentida puede iniciar la conversación.',.7,5.77,11.65,.95,21,M);s.addNotes('Adaptar a categoría autorizada. Pedir una presentación concreta, no números sin consentimiento. No se afirma que existan clientes esperando.');
 s=base(8,'Hablemos de su próximo proyecto.',true);txt(s,'Richard Castro Núñez',.7,2.7,8,.7,29,'FFFFFF',true);txt(s,'España  +34 611 437 071\nChile     +56 9 7153 2583',.7,3.77,8,1.2,25,'FFFFFF');txt(s,'richard.castro@recltda.cl\nrecingenieria.com',.7,5.42,8,.9,23,'CADCEB');s.addImage({path:path.join(web,'assets/qr-rec.png'),x:9.75,y:3.06,w:2.5,h:2.5,altText:'QR a recingenieria.com'});txt(s,'Contacto y WhatsApp',9.73,5.8,2.65,.45,14,'FFFFFF');s.addNotes('Contactos cotejados con tarjeta y firma recibidas. El enlace no prueba que WhatsApp esté activo. QR a URL permanente elegida.');
 await p.writeFile({fileName:path.join(out,'REC-presentacion-comercial.pptx')});
-const card=new PptxGenJS();card.defineLayout({name:'TARJETA',width:91/25.4,height:61/25.4});card.layout='TARJETA';card.author='REC Ingeniería';card.company='REC Ingeniería';card.subject='Propuesta de tarjeta comercial con QR';card.title='REC | Tarjeta con sangrado 3 mm';for(const n of ['tarjeta-frente','tarjeta-reverso']){const t=card.addSlide();t.addImage({path:path.join(out,n+'.png'),x:0,y:0,w:91/25.4,h:61/25.4});}await card.writeFile({fileName:path.join(out,'REC-tarjeta-91x61-con-sangrado.pptx')});
-fs.writeFileSync(path.join(out,'LEEME-TARJETA.md'),`# Tarjeta propuesta
-
-Corte final: 85 × 55 mm. Archivo: 91 × 61 mm, con 3 mm de sangrado por lado. Texto dentro de zona segura. Frente y reverso independientes. QR con margen blanco de cuatro módulos, URL https://recingenieria.com/.
-
-Identidad: REC Ingeniería en azul, con símbolo estructural simplificado inspirado en las tarjetas recibidas. Es una nueva interpretación gráfica; no una reproducción exacta ni un cambio de razón social.
-
-PNG: 1075 × 721 px a 300 dpi. SVG: composición editable; la fotografía conceptual es una imagen incrustada. PPTX/PDF: las caras incorporan el arte rasterizado. El PDF exportado lleva TrimBox de 85 × 55 mm después de verificar materiales. No se presenta como vectorial.
-
-La imprenta debe confirmar perfil CMYK, sangrado y marcas de corte. No hay prueba física ni aprobación de imprenta: imprimir una unidad y escanear antes de encargar un lote. Comprobar ambos contactos en teléfono antes del uso externo.
-`);
-console.log(JSON.stringify({generados:['QR PNG/SVG','logo PNG','tarjeta frente/reverso SVG y PNG','imagen social','presentación 8 diapositivas','tarjeta PowerPoint con sangrado'],logo:{width:lm.width,height:lm.height}}));
+// La tarjeta nueva tiene un generador propio para conservar texto PDF vectorial.
+const {execFileSync}=require('node:child_process');
+if(process.env.REC_PYTHON){execFileSync(process.env.REC_PYTHON,[path.join(__dirname,'generar-tarjeta.py')],{stdio:'inherit'});}
+else{execFileSync('py',['-3.12',path.join(__dirname,'generar-tarjeta.py')],{stdio:'inherit'});}
+execFileSync(process.execPath,[path.join(__dirname,'generar-tarjeta-pptx.cjs')],{stdio:'inherit'});
+console.log(JSON.stringify({generados:['QR PNG/SVG','logo PNG','tarjeta frente/reverso SVG y PNG','imagen social','presentación 8 diapositivas','tarjeta vectorial PDF/SVG, PNG600ppp y PowerPoint con sangrado'],logo:{width:lm.width,height:lm.height}}));
 }
 main().catch(e=>{console.error(e);process.exit(1)});
