@@ -1,0 +1,32 @@
+{
+  "fecha": "2026-10-06",
+  "dominio": "https://recingenieria.com",
+  "despliegue": "dpl_HhSDFSxoSNAufH9PYwht1fHeC9NB",
+  "estado": "READY / production",
+  "commit_fuente": "d83e9dfe7dc3cba4a220dc2c20cbb10983d18012",
+  "recursos": [
+    {
+      "ruta": "index.html",
+      "http": 200,
+      "sha256": "5abbe27748da29df6fb921135ed90786c5ed06dce7703b15a50778b1e16a6c65",
+      "igual_local": true
+    },
+    {
+      "ruta": "richard-castro.vcf",
+      "http": 200,
+      "sha256": "e4cae1b326cd3abb0a5086a418ef8157b919ee8bd10a3fba8857fcf68a6e7069",
+      "igual_local": true
+    }
+  ],
+  "contacto": "Solo WhatsApp España +34 611 437 071, correo y vCard",
+  "entregas_y_visores_conservados": 96,
+  "continuidad": "Copia local SHA-1 y UID idénticos en manifiesto nuevo",
+  "movil": {
+    "viewport": "390 × 844",
+    "sin_desbordamiento": true,
+    "whatsapp_destinos": [
+      "https://wa.me/34611437071"
+    ]
+  },
+  "correo_o_whatsapp_enviado": false
+}

@@ -8,10 +8,10 @@ $recWordPid=0
 $recStarted=Get-Date
 Add-Type -TypeDefinition 'using System; using System.Runtime.InteropServices; public static class RecOfficeWindow { [DllImport("user32.dll")] public static extern uint GetWindowThreadProcessId(IntPtr hwnd, out int processId); }'
 $recIsolated=($recWordApp.Documents.Count -eq 0)
-$recWordApp.Visible=$false
-$recWordApp.DisplayAlerts=0
 try {
     if(-not $recIsolated){throw 'The export requires an empty dedicated Word instance.'}
+    $recWordApp.Visible=$false
+    $recWordApp.DisplayAlerts=0
     [Console]::Error.WriteLine('Office: opening document')
     $recOwnedDoc=$recWordApp.Documents.Open($recDocPath,$false,$false)
     [void][RecOfficeWindow]::GetWindowThreadProcessId([intptr]$recOwnedDoc.ActiveWindow.Hwnd,[ref]$recWordPid)
@@ -33,7 +33,7 @@ try {
         [void][Runtime.InteropServices.Marshal]::ReleaseComObject($recOwnedDoc)
     }
     # This application was created exclusively for this export.
-    try {$recWordApp.Quit(0)} catch {[Console]::Error.WriteLine($_.Exception.Message)}
+    if($recIsolated){try {$recWordApp.Quit(0)} catch {[Console]::Error.WriteLine($_.Exception.Message)}}
     [void][Runtime.InteropServices.Marshal]::ReleaseComObject($recWordApp)
     # Word can leave its isolated automation process alive after disconnecting.
     # Never touch another Office instance or a document open before this export.

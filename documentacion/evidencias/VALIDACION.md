@@ -8,6 +8,8 @@ El informe interno se reorganizó con portada propia de REC, ficha, control de r
 
 La tarjeta cumple funciones observables de presentación, recomendación y acceso al contacto. Su efecto en recuerdo, posicionamiento y ventas no se ha medido. Pendientes: prueba impresa a tamaño real, importación en teléfono y validación comercial. Las secciones siguientes documentan las versiones anteriores; la publicación vigente se registra por separado al verificarla.
 
+Publicación vigente comprobada: `dpl_HhSDFSxoSNAufH9PYwht1fHeC9NB`, READY / production, fuente `d83e9dfe7dc3cba4a220dc2c20cbb10983d18012`. Página y vCard responden HTTP 200 y coinciden por SHA-256 con sus fuentes. Los 96 archivos heredados conservan rutas y UID; copia local completa cotejada por SHA-1. Captura móvil de 390 × 844: un contacto español visible y sin desbordamiento. Evidencia: `publicacion-espana.json`. El informe privado Rev02 pasó la nueva auditoría documental, con índice y folios comprobados. Sin envío al cliente.
+
 6 de octubre de 2026. Revisión independiente final: APTO, sin hallazgos graves o medios pendientes en el alcance revisado.
 
 ## Tarjeta vigente: Materia precisa
