@@ -1,0 +1,30 @@
+{
+  "service": "S005",
+  "date": "2026-10-27",
+  "subject": "Revisión preliminar de compras universitarias y servicios digitales sin obra",
+  "status": "Propuesta preliminar; necesidad y capacidad pendientes de confirmar",
+  "procurement_cases_reviewed": 8,
+  "digital_service_lines": 8,
+  "official_institutional_plan_reviewed": true,
+  "existing_platforms_considered": true,
+  "independent_review": "Fuentes, bases y alcance cotejados; cierre de dictamen conservado en expediente privado",
+  "artifacts": [
+    {
+      "file": "MATRIZ_UTALCA_20261027.csv",
+      "bytes": 3955,
+      "sha256": "01ebce51331b51adf6ea83838ca344e1350be1c6476a9f020289d52932dd6e70"
+    },
+    {
+      "file": "MATRIZ_UTALCA_20261027.md",
+      "bytes": 5313,
+      "sha256": "a23da7971dfe85d739148d06108296ce125534e672ef294afe9428870b90f4a1"
+    },
+    {
+      "file": "PROPUESTA_SERVICIOS_DIGITALES_UTALCA.md",
+      "bytes": 11949,
+      "sha256": "dfef0f9a7df8633cb2613b308f167b07aa1589348eaf0d2617e59fa7125c0942"
+    }
+  ],
+  "privacy": "Expediente, comunicaciones y análisis privados. Este registro contiene solo integridad y alcance.",
+  "limits": "No acredita contratación, habilitación del equipo ni demanda de plataforma. No se presentó oferta ni se contactó a la Universidad."
+}
