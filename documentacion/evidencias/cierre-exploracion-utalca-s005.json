@@ -26,5 +26,19 @@
     }
   ],
   "privacy": "Expediente, comunicaciones y análisis privados. Este registro contiene solo integridad y alcance.",
-  "limits": "No acredita contratación, habilitación del equipo ni demanda de plataforma. No se presentó oferta ni se contactó a la Universidad."
+  "limits": "No acredita contratación, habilitación del equipo ni demanda de plataforma. No se presentó oferta ni se contactó a la Universidad.",
+  "additional_image_delivery": {
+    "date": "2026-10-27",
+    "file": "REC-UTalca-servicios-digitales-tabla.png",
+    "sha256": "f2ea4eda664cc15c91f4fa968acde49a4f5ed44ccf4f5cc23a086e2ec2ccd6ef",
+    "dimensions": [
+      1440,
+      1745
+    ],
+    "rows": 8,
+    "content": "Conversión de la tabla de propuestas ya revisada",
+    "visual_check": true,
+    "sent_with_explicit_authorization": true,
+    "outgoing_image_rechecked": true
+  }
 }
