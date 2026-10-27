@@ -26,5 +26,19 @@
       "sha256": "7ef1d5bebdd021e9870bde5e0d95ad1327f8d2cad9ea37eaa14faede5cd04a38"
     }
   ],
-  "limits": "La investigación no acredita capacidad profesional, demanda pagadora, tarifas observadas ni contratación. Sin publicación web de informes."
+  "limits": "La investigación no acredita capacidad profesional, demanda pagadora, tarifas observadas ni contratación. Sin publicación web de informes.",
+  "additional_image_delivery": {
+    "date": "2026-10-27",
+    "file": "REC-Alicante-servicios-prioritarios-tabla.png",
+    "sha256": "7620486c793de703061e01db3d3592c0ce41e054b430a747d480d9b8678a2fd2",
+    "dimensions": [
+      1440,
+      1671
+    ],
+    "rows": 5,
+    "visual_check": true,
+    "sent_with_authorization": true,
+    "outgoing_image_rechecked": true,
+    "scope": "Resumen gráfico del estudio ya revisado; no cambia el informe ni acredita capacidades."
+  }
 }
