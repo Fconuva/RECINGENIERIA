@@ -1,0 +1,30 @@
+{
+  "service": "S004",
+  "date": "2026-10-27",
+  "subject": "Investigación documental del mercado de ingeniería de Alicante",
+  "visibility": "Informes y expediente privados; este registro solo contiene evidencia de integridad",
+  "status": "APTO DOCUMENTAL",
+  "pages": 14,
+  "references": 35,
+  "pdf_links": 57,
+  "independent_review": true,
+  "word_reopened_read_only": true,
+  "findings": {
+    "severe_open": 0,
+    "medium_open": 0,
+    "minor_layout_accepted": 1
+  },
+  "artifacts": [
+    {
+      "file": "REC-S004-mercado-Alicante-Rev01.pdf",
+      "bytes": 481086,
+      "sha256": "d15fc7300327cef8f8a8be44347d9899c951357ae2834464c954f0755bb4f98e"
+    },
+    {
+      "file": "REC-S004-mercado-Alicante-Rev01.docx",
+      "bytes": 124665,
+      "sha256": "7ef1d5bebdd021e9870bde5e0d95ad1327f8d2cad9ea37eaa14faede5cd04a38"
+    }
+  ],
+  "limits": "La investigación no acredita capacidad profesional, demanda pagadora, tarifas observadas ni contratación. Sin publicación web de informes."
+}
