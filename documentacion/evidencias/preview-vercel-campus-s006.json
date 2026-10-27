@@ -1,0 +1,81 @@
+{
+  "service": "S006",
+  "date": "2026-10-27",
+  "hosting": "Vercel",
+  "project": "rec-campus-piloto",
+  "environment": "Preview de desarrollo y revisión no comercial",
+  "state": "READY",
+  "scope": "Mapa cartográfico 2D/3D preliminar de tres lugares, sin reconstrucción 1:1 terminada.",
+  "package_files": 11,
+  "package_bytes": 1224984,
+  "package_manifest_sha256": "5b306e50918f8fcca2d658b6d31d65c34304f809f44c65451a28603998a9900f",
+  "runtime_files_verified_sha256": 9,
+  "private_paths_verified_404": 6,
+  "https": true,
+  "anonymous_access": "Vercel Authentication",
+  "review_link": "Temporal; conservado solo en el expediente privado.",
+  "plan_upgraded": false,
+  "commercial_use": "Requiere resolver un plan adecuado antes de su inicio.",
+  "unchanged": "Sitio REC existente, dominios y proyectos ajenos.",
+  "independent_review": "Paquete y cierre remoto conformes para Preview de desarrollo/revisión no comercial.",
+  "artifacts": [
+    {
+      "file": ".vercelignore",
+      "bytes": 22,
+      "sha256": "f468fb347c90f3d516c8d58df8d2ecb9e7a345a3b62d33b6ee51dce3947a7f24"
+    },
+    {
+      "file": "app.js",
+      "bytes": 9633,
+      "sha256": "df35576c239f3b6a217301747dc7645bc5dda81aa9ee287bac96bab5416e3369"
+    },
+    {
+      "file": "assets/campus.geojson",
+      "bytes": 185331,
+      "sha256": "c63de923b1cf4719e899d9c3b4eeb9b9fc1edb740e221094ebd01204bada9f42"
+    },
+    {
+      "file": "assets/DATOS_CARTOGRAFICOS.md",
+      "bytes": 969,
+      "sha256": "f1dbf475907bcf49cd874585de1723d9b09400ce80fb135742f2180bc1e57a31"
+    },
+    {
+      "file": "assets/LICENSE-maplibre.txt",
+      "bytes": 5984,
+      "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2"
+    },
+    {
+      "file": "assets/lugares.json",
+      "bytes": 888,
+      "sha256": "1578d6d9f46abf718067a076f04af7fc16466a6fb97f61e3fccb708b4f0c99e6"
+    },
+    {
+      "file": "assets/maplibre-gl.css",
+      "bytes": 69430,
+      "sha256": "43c1d886b5fdf0aac4e7135bd6f84b823d9f48283a648012665f9be52c01389f"
+    },
+    {
+      "file": "assets/maplibre-gl.js",
+      "bytes": 937395,
+      "sha256": "1525f971223d81f169f049f1ce50083e6f1643aa6b0ea0716653a550d2d57fc2"
+    },
+    {
+      "file": "index.html",
+      "bytes": 8321,
+      "sha256": "4a0bfd1b66ba0891272e143b06ea34de0dcdef7a1f669e15123dd3f5bfe9dfa2"
+    },
+    {
+      "file": "style.css",
+      "bytes": 6084,
+      "sha256": "dd75df6e3910e29527f023d7c6bc70faa4abfc85052cbf1d3867af43e25cb7e7"
+    },
+    {
+      "file": "vercel.json",
+      "bytes": 927,
+      "sha256": "5178f7bc7b9a6e7eafaf9e7636a79a315cfc66fe535035347f95ac21c4b7fc7e"
+    }
+  ],
+  "restricted_media_or_cad_uploaded": false,
+  "independent_audit_sha256": "1c4ea0ec3db3c31b404b665caecab2874fa07ee2b0414f7490d4c935e1bf699c",
+  "physical_gps_validation": false
+}
