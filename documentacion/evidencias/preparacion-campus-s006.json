@@ -1,0 +1,50 @@
+{
+  "service": "S006",
+  "date": "2026-10-27",
+  "scope": "Investigación y preparación local de un piloto navegable; galería de referencias y base geométrica conceptual.",
+  "status": "Preparación local revisada; reconstrucción fiel a escala 1:1 pendiente.",
+  "independent_review": "Sin hallazgos graves o medios abiertos para preparación local delimitada.",
+  "reference_photographic_files": 30,
+  "reference_drawings": 11,
+  "conceptual_cad_buildings": 3,
+  "gps_validation": "Prueba de funciones con posiciones simuladas; validación física pendiente.",
+  "privacy": "Expediente, fotografías, planos, código del piloto y modelos permanecen privados. Solo se publica este registro de integridad.",
+  "limits": "Sin publicación de producto, oferta, integración institucional, permiso de imágenes o aprobación de uso comercial CAD.",
+  "artifacts": [
+    {
+      "file": "PLAN_CAPTURA_Y_DEMO.md",
+      "bytes": 8264,
+      "sha256": "91cd42c1ad77f2b5bba59b491b352ac4b995dbef2e2b104bfdfaddd808ac7f0a"
+    },
+    {
+      "file": "RECOPILACION_Y_HALLAZGOS.md",
+      "bytes": 8837,
+      "sha256": "df61756245e469cadac40c3e9912c313a80e88daf4cd4ec41084e7a66260153e"
+    },
+    {
+      "file": "galeria.html",
+      "bytes": 30867,
+      "sha256": "3a655246eb3c6992b2a23d847928540c195f2873fe75590dda1b1408b556f4f9"
+    },
+    {
+      "file": "index.html",
+      "bytes": 8872,
+      "sha256": "6cbb8c20e81c2cf5d3663daf7f6813f9e1a8f30e6b9b1dda481dd6f6756ca62d"
+    },
+    {
+      "file": "AUDITORIA_INDEPENDIENTE.md",
+      "bytes": 11525,
+      "sha256": "15bdd3299c3b12974f1a1ba41b5e76a07efc96671ec5d8daeb2a04a5b71abad9"
+    },
+    {
+      "file": "REC_Campus_Lircay_DEMO.dwg",
+      "bytes": 91974,
+      "sha256": "27650faf7081af25f6db79b208c86bff09edfbebbfcb6e168597a3694e924eb7"
+    },
+    {
+      "file": "REC_Campus_Lircay_DEMO.dxf",
+      "bytes": 371286,
+      "sha256": "347b5d3a4abe67480c47d91b34295673cad1caa01043a844c726886abfe8bbad"
+    }
+  ]
+}
