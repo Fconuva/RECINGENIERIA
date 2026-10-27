@@ -1,0 +1,52 @@
+{
+  "service": "S006",
+  "date": "2026-10-27",
+  "scope": "Investigación comparada de campus, malls y recintos; evidencia privada para decidir sobre un piloto.",
+  "cases_researched": 10,
+  "rea_browser_scenarios": 6,
+  "wappalyzer_contexts": 7,
+  "tools": {
+    "REA": "6.5.0, CLI existente; seis escenarios y análisis estático acotado de un bundle público.",
+    "skill": "reverse-engineer-anything, versión 42.",
+    "Wappalyzer": "6.12.8, motor y firmas locales; análisis parcial de DOM, scripts y metadatos."
+  },
+  "independent_review": "APTO documental interno, sin hallazgos graves ni medios abiertos. No certifica reconstrucción 1:1 ni posición interior.",
+  "limitations": [
+    "Cobertura acotada; firmas heurísticas, observación y afirmaciones de proveedores diferenciadas.",
+    "Página principal y visor iframe analizados por separado.",
+    "Sin ensayos físicos de rutas, AR o posicionamiento interior.",
+    "Casos históricos identificados como tales."
+  ],
+  "visibility": "Informes, capturas, entradas y bundles conservados en expediente privado. Este registro público solo identifica alcance e integridad.",
+  "deployment_changed": false,
+  "third_party_messages_sent": false,
+  "installed_or_updated": false,
+  "artifacts": [
+    {
+      "file": "INVESTIGACION_COMPARADA.md",
+      "bytes": 13648,
+      "sha256": "15147ad5976fc000809620746c7f38d51812e814c80761fe98fcb6829d93fe9f"
+    },
+    {
+      "file": "LECTURA.html",
+      "bytes": 17323,
+      "sha256": "b847943aef83c6902fce5f0639daa6fd5ab4c28aa7435a0ee363cbbe5d833320"
+    },
+    {
+      "file": "TECNOLOGIAS_COMPARADAS.csv",
+      "bytes": 2015,
+      "sha256": "769478396a0518389863bfd41b7c6002ce3744b41dac796bcf13e09be6852a3d"
+    },
+    {
+      "file": "TECNOLOGIA/HALLAZGOS_TECNICOS.json",
+      "bytes": 35199,
+      "sha256": "ee407e5f82cefbbbfe1f252ce035ccdc469bfb915859dab0a16189906732df7a"
+    },
+    {
+      "file": "TECNOLOGIA/RESULTADOS_WAPPALYZER.json",
+      "bytes": 31257,
+      "sha256": "f72886690f2e832cfe2226534e2e89d8a0dacf25117ebabc9bd114244e060581"
+    }
+  ],
+  "independent_audit_sha256": "5e23540f36696555efc05a90bee5844dda9b027654281283817b1400d9923272"
+}
